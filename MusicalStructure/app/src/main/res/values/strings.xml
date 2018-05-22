@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="MainActivity_Info">O app possibilita ao usuário ouvir música via serviço streaming. Para isso será necessário navegar entre três opções:\n
+    - Lista: escolher ou criar uma playlist\n
+    - Procurar: procurar por uma música que deseja ouvir\n
+    - Aleatória: o usuário será direcionado para uma tela onde deverá escolher qual o estilo de música que o app deeverá sugerir aleatóriamente pelas músicas a serem tocadas.</string>
+    <string name="Main_Button_List">Lista</string>
+    <string name="Main_Button_Search">Pesquisa</string>
+    <string name="Main_Button_Ramdon">Aleatório</string>
+</resources>
