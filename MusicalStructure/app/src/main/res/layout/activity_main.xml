@@ -7,24 +7,45 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/MainActivity_Info"/>
+        android:text="@string/mainActivityInfo"/>
 
     <TextView
+        android:id="@+id/txtListButton"
+        style="@style/mainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Main_Button_List"
-        style="@style/MainButton"/>
+        android:text="@string/mainButtonList"
+        android:background="@color/listMainColor"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/txtSearchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Main_Button_Search"
-        style="@style/MainButton"/>
+        android:text="@string/mainButtonSearch"
+        style="@style/mainButton"
+        android:background="@color/searchMainColor"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/txtRandomButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Main_Button_Ramdon"
-        style="@style/MainButton"/>
+        android:text="@string/mainButtonRamdon"
+        style="@style/mainButton"
+        android:background="@color/ramdonMainColor"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 
+    <TextView
+        android:id="@+id/txtPaymentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainButtonPayment"
+        style="@style/mainButton"
+        android:background="@color/paymentMainColor"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 </LinearLayout>

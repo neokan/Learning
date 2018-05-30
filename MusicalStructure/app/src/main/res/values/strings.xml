@@ -1,10 +1,49 @@
 <resources>
     <string name="app_name">Musical Structure</string>
-    <string name="MainActivity_Info">O app possibilita ao usuário ouvir música via serviço streaming. Para isso será necessário navegar entre três opções:\n
+    <string name="mainActivityInfo">O app possibilita ao usuário ouvir música via serviço streaming. Para isso será necessário navegar entre três opções:\n
     - Lista: escolher ou criar uma playlist\n
     - Procurar: procurar por uma música que deseja ouvir\n
-    - Aleatória: o usuário será direcionado para uma tela onde deverá escolher qual o estilo de música que o app deeverá sugerir aleatóriamente pelas músicas a serem tocadas.</string>
-    <string name="Main_Button_List">Lista</string>
-    <string name="Main_Button_Search">Pesquisa</string>
-    <string name="Main_Button_Ramdon">Aleatório</string>
+    - Aleatória: ao escolher um estilo de música, o app sugere aleatóriamente músicas a serem tocadas.</string>
+    <string name="randomActivityInfo">Após a escolha de uma categoria o app toca músicas do estilo solicitado.\n
+    Desafios:\n
+    - Obter a lista de categorias de um banco de dados\n
+        - Sugerir uma lista de músicas aleatórias relacionadas a categoria escolhida\n
+    - Encaminhar a tela de Player a lista de músicas a ser executada\n
+    Possíveis Soluções:\n
+        - Trabalhar com base localizada em um servidor remoto central</string>
+    <string name="listActivityInfo">Apresenta as listas criadas previamente ou possibilita criar uma nova.\n
+    Desafios:\n
+    - Gravar em um banco de dados a lista criada pelo usuário. Este item interage com a activity "Search" para o usuário pesquisar pelas músicas a serem adicionadas na lista\n
+    - Apresentar as listas do usuário e quando solicitado pesquisar por elas\n
+    - Possibilitar que o usuário adicione ou remova músicas das listas do usuário\n
+    Possíveis Soluções:\n
+        - Trabalhar com base localizada em um servidor remoto central\n
+        - Trabalhar com base local para configurações e informações do usuário que agiliza algumas ações (ex listas do usuário)</string>
+    <string name="searchActivityInfo">Disponibiliza a pesquisa por músicas.\n
+    Desafios:\n
+    - Realizar pesquisas por músicas, albuns, cantores(as) e bandas de acordo com o input do usuário\n
+    Possíveis Soluções:\n
+        - Trabalhar com base localizada em um servidor remoto central</string>
+    <string name="playerActivityInfo">Tela apresenta comandos de player com a música em execução no momento.\n
+    Desafios:\n
+    - Interagir com comandos de multimedia (play/stop/forward/back). Pode ser que através da MediaPlayer API consiga implemtar essa funcionalidade\n
+    Possíveis Soluções:\n
+        - Trabalhar com base localizada em um servidor remoto central para fazer streaming da música\n
+    - Através de API de MediaPlayer para funcionalidades de player</string>
+    <string name="paymentActivityInfo">Tela apresenta comandos para o usuário interagir com meio de pagamento.\n
+    Desafios:\n
+    - Possibilitar ao usuário realizar o pagamento de mensalidade para uso do aplicativo\n
+    Possíveis Soluções:\n
+    - Através de Google Pay API possibilitar ao usuario realizar o pagamento de mensalidade</string>
+    <string name="mainButtonList">Lista</string>
+    <string name="mainButtonSearch">Pesquisa</string>
+    <string name="mainButtonRamdon">Aleatório</string>
+    <string name="mainButtonPayment">Pagamento</string>
+    <string name="listTitle">Playlist</string>
+    <string name="randomTitle">Random</string>
+    <string name="searchTitle">Pesquisa</string>
+    <string name="playerTitle">Player</string>
+    <string name="buttonPlayer">Player</string>
+    <string name="paymentTitle">Pagamento</string>
+    <string name="buttonPayment">Pagamento</string>
 </resources>
